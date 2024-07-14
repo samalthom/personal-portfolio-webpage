@@ -8,13 +8,26 @@ html{
     padding: 0;
     background-color: #312F2F;
     color: #C0C0C0;
-    font-family: monospace;
+    font-family: monaco, monospace;
+  }
+  
+  navbar{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  li{
+    display: inline;
+    font-size: 16px;
   }
   
   ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   
   a{
@@ -24,15 +37,48 @@ html{
   
   header{
     background-color: #DA4167;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
   }
   
   p{
     color: #DA4167;
     font-style: italic;
+    font-size: 18px;
+    margin-top: -25px;
   }
   
   img{
     width: 250px;
     height: 250px;
     object-fit: cover;
+  }
+  
+  section{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 10vh;
+  }
+  
+  #projects{
+    background-color: #2D436B;
+    padding-bottom: 10vh;
+  }
+  
+  #contact{
+    padding-bottom: 10vh;
+  }
+  
+  #about{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  h1{
+    font-size: 45px;
+    margin-top: 30vh;
   }
